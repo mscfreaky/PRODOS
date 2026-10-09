@@ -1,0 +1,7 @@
+PASS native Demo start/restart 1: same show, connected
+PASS native Demo start/restart 2: same show, connected
+PASS native Demo start/restart 3: same show, connected
+PASS native Demo start/restart 4: same show, connected
+PASS native chapter next and previous
+PASS native push and understanding acknowledgement
+PASS native Inspector reuses existing demo; disconnect preserves original owner

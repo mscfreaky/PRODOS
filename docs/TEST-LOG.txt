@@ -1,0 +1,48 @@
+✔ show-time validation and chat text constraints (0.9955ms)
+✔ chat routing, replies, acknowledgement, clocks, isolation and persistence (254.6718ms)
+✔ camera 3 is red / camera 8 green / camera 1 off (0.8905ms)
+✔ super source boxes visible on air are program (0.2602ms)
+✔ upstream keyers and downstream camera fills count as live (0.2097ms)
+✔ program wins over preview and name is retained (0.6923ms)
+✔ all show data survives reopening; create, load and duplicate isolate shows (28.8819ms)
+✔ questions have two states, sort completed last, allow reactivation (8.2082ms)
+✔ chapter permissions for Director and Editorial, no forced scrolling API (4.7133ms)
+✔ strict permissions and minimum disclosure for cameras (2.3172ms)
+✔ planned clock, actual start/end, overrun and event history (8.4271ms)
+✔ targeted messages, broadcast, replies and idempotent acknowledgements persist (12.4674ms)
+✔ tokens rotate; inactive shows cannot authenticate (5.2328ms)
+✔ corrupt state fails closed without overwriting original (2.8887ms)
+✔ failed save rolls back in-memory action (2.1306ms)
+✔ single data owner blocks a second instance and releases cleanly (3.7419ms)
+✔ HTTP role workflow, tunnel endpoint isolation, missing ATEM and authentication (243.684ms)
+✔ new shows use the single English sample and export without role secrets (19.3908ms)
+✔ real bridge lifecycle persists data, refuses wrong origins, recovers stale lock (255.833ms)
+✔ Inspector and browser demo reuse one owner; detach does not stop its server or alter data (270.1166ms)
+✔ rapid stop/start cycle recovers stale PID locks without losing the show (494.405ms)
+✔ a live demo owner cannot be reused as a real ATEM connection (228.568ms)
+✔ demo state contains realistic inspector sections (0.5255ms)
+✔ 0.2 data upgrades in place without replacing show, tokens, questions or messages (4.0745ms)
+✔ chapter arrows enforce rights, bounds and concurrent changes; durations survive reopen (12.2064ms)
+✔ broadcast confirmation names every missing role and remains per-recipient (21.3681ms)
+✔ portable export/import preserves content but creates new identity and secret links (14.7268ms)
+✔ invalid imports and unauthorized imports never mutate state; backups contain pre-change data (5.9009ms)
+✔ presence separates never opened, foreground, background and missed heartbeat; show scopes isolate (0.3212ms)
+✔ preflight never treats a demo or an old tunnel check as live readiness (10.7305ms)
+✔ LIVE transition flashes once, never on first load, repeat polling, reconnect or camera reassignment (0.0959ms)
+✔ reader defaults and validated local choices; partial chapter plans do not claim accuracy (0.1153ms)
+✔ new HTTP endpoints enforce role isolation and probe uses only current one-time challenge (88.246ms)
+✔ team recipients are fixed at send time, excluded roles cannot read/ack, imports preserve team (20.711ms)
+✔ moderation can move chapters; cameras remain forbidden; display names are visible (7.3474ms)
+✔ tunnel URL alone is not ready; registered connection is ready; stop/restart ignores stale logs (0.6678ms)
+✔ DNS failure survives process exit, missing executable and timeout report actionable errors (30.6141ms)
+✔ one understanding action produces zero/one/two checks, no fake receipts from monitoring roles (14.5426ms)
+✔ push restricted to Director, reaches every tally despite required roles, expires and cannot replay after restart/import (12.7662ms)
+✔ client push gate accepts once per event, rejects old and wrong-show events (0.1366ms)
+ℹ tests 40
+ℹ suites 0
+ℹ pass 40
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1317.5773

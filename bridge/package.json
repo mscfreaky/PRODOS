@@ -1,0 +1,20 @@
+{
+  "name": "prodos",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Production Suite based on ATEM Inspector 1.3: persistent shows and isolated production roles",
+  "scripts": {
+    "test": "node --test",
+    "demo": "node launch.js --demo",
+    "start": "node launch.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "atem-connection": "3.10.2",
+    "qrcode": "1.5.4"
+  },
+  "license": "MIT"
+}
